@@ -4,8 +4,21 @@
   	padding: 0;
 }
 body {
-	font-family: 'Open Sans', sans-serif;
+	color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
+a {
+	text-decoration: none;
+}
+header {
+  height: 700px;
+  background: url("../images/header_bg.jpg") no-repeat center top;
+  background-size: cover;
+  }
 h1{
 	color: white;
 	padding-left: 0px;
@@ -110,7 +123,7 @@ ul{
 	display: inline-block;
 	text-align: left;
 }
-.testimony {
+.testimonial {
 	background: url("../images/testimonial_bg.jpg") no-repeat center bottom;
 	height: 250px;
 	width: 800px;
@@ -128,15 +141,19 @@ footer {
 	display: inline-block;
 	color: white;
 }
-span {
-	display: inline-block;    
-	vertical-align: middle; 
-	margin-top: 37px;
-	font-style: italic;
-	font-weight: 300;
-	font-size: 18px;
-	position: center;
-	width: 290px;
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 580px;
+  margin: 0 auto;
+}
+
+blockquote span {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
 }
 img {
 	display: inline-block;
